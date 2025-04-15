@@ -71,6 +71,10 @@ const timer = () => {
     }, 1000);
 };
 
+window.addEventListener('DOMContentLoaded', () => {
+    timer();
+});
+
 const buka = async () => {
     window.scrollTo(0, 0);
     document.getElementById('tombol-musik').style.display = 'block';
